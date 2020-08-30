@@ -13,4 +13,5 @@ WordCounter then uses WordCountMap to read a text file and output each unique wo
 
 The WordCloudMaker then makes an html word cloud.
 
+Start by running the WordCounter file.
 
