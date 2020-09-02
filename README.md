@@ -16,7 +16,9 @@ Then, WordCounter either prints out a list of words and the number of times they
 RUNNING INSTRUCTIONS:
 
 Start by running the WordCounter file. First complile all: "javac \*.java". There are two ways to then run the project. 
+
 The first: "java WordCounter textFileName". This will output a list of words in the textfile (excluding stop words) and the number of times each word repeated. 
+
 The second: "java WordCounter textFileName numberOfWordsToInclude outFileName". For example, if you use the WutheringHeights file which exists in my repository, you could run: "java WordCounter WutheringHeights.txt 50 WutheringHeightsWordCloud.html".
 
 If you use the repl.it link below to run the project, you must run all commands manually. The Run button remains unconfigured.
