@@ -13,7 +13,7 @@ WordCounter then uses WordCountMap to read a text file and output each unique wo
 
 The WordCloudMaker then makes an html word cloud.
 
-Start by running the WordCounter file.
+Start by running the WordCounter file. First complile all: "javac \*.java". Then run "java WordCounter textFileName numberOfWordsToInclude outFileName". The repl.it run button is configured to use "java WordCounter WutheringHeights(testfile).txt 50 WutheringHeightsWordCloud.html". If you're using the run button in the repl.it link below, you still must manually compile before running.
 
 [![Run on Repl.it](https://repl.it/badge/github/Ave-Wat/WordCloud)](https://repl.it/github/Ave-Wat/WordCloud)
 
