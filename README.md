@@ -15,3 +15,5 @@ The WordCloudMaker then makes an html word cloud.
 
 Start by running the WordCounter file.
 
+[![Run on Repl.it](https://repl.it/badge/github/Ave-Wat/WordCloud)](https://repl.it/github/Ave-Wat/WordCloud)
+
