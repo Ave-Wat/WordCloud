@@ -15,4 +15,6 @@ The WordCloudMaker then makes an html word cloud.
 
 Start by running the WordCounter file. First complile all: "javac \*.java". Then run "java WordCounter textFileName numberOfWordsToInclude outFileName". For example, if you use the WitheringHeights file which exists in my repository, you could run: "java WordCounter WutheringHeights.txt 50 WutheringHeightsWordCloud.html".
 
+If you use the repl.it link below to run the project, you must run all commands manually. The Run button remains unconfigured.
+
 [![Run on Repl.it](https://repl.it/badge/github/Ave-Wat/WordCloud)](https://repl.it/github/Ave-Wat/WordCloud)
