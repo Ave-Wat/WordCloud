@@ -13,7 +13,9 @@ WordCounter then uses WordCountMap to read a text file and output each unique wo
 
 The WordCloudMaker then makes an html word cloud.
 
-Start by running the WordCounter file. First complile all: "javac \*.java". Then run "java WordCounter textFileName numberOfWordsToInclude outFileName". For example, if you use the WitheringHeights file which exists in my repository, you could run: "java WordCounter WutheringHeights.txt 50 WutheringHeightsWordCloud.html".
+Start by running the WordCounter file. First complile all: "javac \*.java". There are two ways to then run the project. 
+The first: "java WordCounter textFileName". This will output a list of words in the textfile (excluding stop words) and the number of times the words repeated. 
+The second: "java WordCounter textFileName numberOfWordsToInclude outFileName". For example, if you use the WutheringHeights file which exists in my repository, you could run: "java WordCounter WutheringHeights.txt 50 WutheringHeightsWordCloud.html".
 
 If you use the repl.it link below to run the project, you must run all commands manually. The Run button remains unconfigured.
 
